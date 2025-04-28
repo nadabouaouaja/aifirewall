@@ -32,6 +32,12 @@ def predict_request(request_dict):
     label = "Attack" if prediction == 1 else "Normal"
     return label, float(prob)
 
+
+@app.route('/', methods=['GET'])
+def home():
+    return "<h1>Bienvenue sur l'API AI Firewall 🚀</h1><p>Utilisez l'endpoint /predict pour faire des prédictions.</p>"
+
+
 @app.route('/predict', methods=['POST'])
 def predict():
     # ✅ Vérifier que le header Authorization contient le bon token
