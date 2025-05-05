@@ -3,7 +3,7 @@
 ````markdown
 # AI Firewall (Sufetron)
 
-**Sufetron** is an AI-powered HTTP request firewall designed to protect Flask-based APIs by identifying and blocking suspicious requests. It utilizes a trained machine learning model based on logistic regression to classify requests as legitimate or malicious.
+**Sufetron** is an AI-powered HTTP request firewall designed to protect REST APIs by identifying and blocking suspicious requests. It utilizes a trained machine learning model based on logistic regression to classify requests as legitimate or malicious.
 
 This package can be easily integrated into any Flask application, providing a simple middleware solution to add a layer of security to your API.
 
