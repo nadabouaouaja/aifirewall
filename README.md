@@ -1,4 +1,4 @@
-Here's an updated version of your `README.md` with a clearer sequence of events:
+
 
 ````markdown
 # AI Firewall (Sufetron)
@@ -92,5 +92,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 2. **Clear Workflow**: I clarified the process from model training and deployment to creating the Python package.
 3. **API Usage**: I mentioned that the `shield` function in `sufetron` interacts with the deployed Azure model API, adding an extra layer of security to the Flask app.
 
-Let me know if you need further updates!
+
 ```
