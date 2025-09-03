@@ -1,3 +1,5 @@
+## 👥 Projet collaboratif
+Ce dépôt fait partie d’un travail collaboratif réalisé en équipe.
 
 
 ````markdown
